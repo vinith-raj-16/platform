@@ -77,42 +77,6 @@ SERVER_PORT=8080
 ### Run the server:
   * go run cmd/server/main.go
 
-### flow
-
-.
-├── README.md
-├── cmd
-│   └── server
-│       └── main.go
-├── config.env
-├── data
-│   └── users.db
-├── go.mod
-├── go.sum
-├── internal
-│   ├── handlers
-│   │   ├── create_user.go
-│   │   ├── get_usage.go
-│   │   ├── list_files.go
-│   │   ├── storage_service.go
-│   │   ├── upload_files.go
-│   │   └── user_service.go
-│   ├── middleware
-│   │   ├── auth.go
-│   │   └── logging.go
-│   ├── models
-│   │   └── storage.go
-│   ├── services
-│   │   ├── auth.go
-│   │   └── storage.go
-│   └── utils
-│       └── util.go
-├── pkg
-│   └── config
-│       └── config.go
-└── storage
-    
-
 
 ### Explanation of the Structure:
 
